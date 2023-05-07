@@ -1,19 +1,22 @@
-import data from '../../data/db.json'
+import Tour from "./tour/Tour";
+import { Fragment } from "react";
 
-export default function Tours(){
+
+const Tours = (props) => {
   return (
-    <>
-    {
-      data.map(item =>{
-        return(
-          <div key={item.id} >
-            <p>{item.name}</p>
-            <img src={item.image} alt={item.name}></img>
-            <hr />
+    <Fragment>
+      {props.data.map((dataItem) => {
+        return (
+          <div key={dataItem.id}>
+            <Tour
+              image={dataItem.image}
+              id={dataItem.id}
+              name={dataItem.name}
+            />
           </div>
-        )
-      })
-    }
-    </>
-  )
-}
+        );
+      })}
+    </Fragment>
+  );
+};
+export default Tours;

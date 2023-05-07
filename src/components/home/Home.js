@@ -1,13 +1,16 @@
-import Header from '../header/Header'
-import Tours from '../tours/Tours'
-import Footer from '../footer/Footer'
+import { Fragment } from "react";
+import Header from "../header/Header";
+import Tours from "../tours/Tours";
+import Footer from "../footer/Footer";
 
-export default function Home() {
-return(
-  <section>
-    <Header />
-    <Tours  />
-    <Footer />
-  </section>
-)
-}
+
+const Home = (props) => {
+  return (
+    <Fragment>
+      <Header />
+      <Tours data={props.data} />
+      <Footer />
+    </Fragment>
+  );
+};
+export default Home;

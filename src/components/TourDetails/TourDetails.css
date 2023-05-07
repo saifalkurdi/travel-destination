@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Poppins:wght@200&display=swap");
+
+.city-style {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.button-style {
+  background-color: white;
+  color: black;
+  border: 2px solid #3c486b;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  height: 50px;
+}
+.button-style:hover {
+  background-color: #3c486b;
+  color: white;
+}
