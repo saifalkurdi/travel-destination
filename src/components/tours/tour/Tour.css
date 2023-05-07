@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Poppins:wght@200&display=swap");
+
+.props-style {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.props-style div p:hover {
+  color: #0a4d68;
+}
+.props-style img {
+  height: 700px;
+  width: 800px;
+  margin: 15px;
+  border-radius: 10px;
+}@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Poppins:wght@200&display=swap");
+
+.props-style {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.props-style div p:hover {
+  color: #0a4d68;
+}
+.props-style img {
+  height: 700px;
+  width: 800px;
+  margin: 15px;
+  border-radius: 10px;
+}

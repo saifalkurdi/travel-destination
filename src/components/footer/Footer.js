@@ -1,10 +1,24 @@
-export default function Footer(){
-  return(
-    <footer>
-      <a href="https://facebook.com">Facebook</a>
-      <a href="https://twitter.com">Twitter</a>
-      <a href="https://instagram.com">Instagram</a>
-      <p>saif alkurdi</p>
-    </footer>
-  )
-}
+import { Fragment } from "react";
+import { Link } from "react-router-dom";
+import "./Footer.css";
+const Footer = () => {
+  return (
+    <Fragment>
+      <footer className="footer">
+        <div className="container">
+          <p>All rights reserved by &copy; Murad Dabbous 2023 </p>
+          <Link to="#" className="media">
+            <i className="facebook"> facebook </i>
+          </Link>
+          <Link to="#" className="media">
+            <i className="twitter"> twitter </i>
+          </Link>
+          <Link to="#" className="media">
+            <i className="instagram"> github </i>
+          </Link>
+        </div>
+      </footer>
+    </Fragment>
+  );
+};
+export default Footer;
