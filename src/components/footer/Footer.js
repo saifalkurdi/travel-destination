@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
-import "./Footer.css";
+import "./footer.css";
 const Footer = () => {
   return (
     <Fragment>
       <footer className="footer">
         <div className="container">
-          <p>All rights reserved by &copy; Murad Dabbous 2023 </p>
+          <p>All rights reserved by &copy; Saif ALkurdi 2023 </p>
           <Link to="#" className="media">
             <i className="facebook"> facebook </i>
           </Link>
